@@ -34,7 +34,7 @@ class MyHomePage extends StatelessWidget {
               width: double.infinity,
               child: Card(
                 color: Colors.blue,
-                child: Text('this Chart'),
+                child: Text('this Chart edit linux'),
                 elevation: 5,
               ),
             ),

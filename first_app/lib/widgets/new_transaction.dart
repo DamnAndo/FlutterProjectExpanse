@@ -31,6 +31,7 @@ class NewTransaction extends StatelessWidget {
                   print(amountController.text);
                   addTx(titleController.text,
                       double.parse(amountController.text));
+                  FocusScope.of(context).unfocus(); 
                 },
                 child: Text("Add Transaction"),
                 textColor: Colors.purple,
